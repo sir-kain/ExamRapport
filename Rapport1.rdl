@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>18.5.11723.231</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-05-11T10:10:34.7294328Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-05-11T22:03:02.0776186Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -70,9 +70,6 @@
                 <TablixColumn>
                   <Width>3.7112cm</Width>
                 </TablixColumn>
-                <TablixColumn>
-                  <Width>2.86454cm</Width>
-                </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
@@ -98,42 +95,11 @@
                           </Paragraphs>
                           <rd:DefaultName>Textbox17</rd:DefaultName>
                           <Style>
-                            <BackgroundColor>#1F3864</BackgroundColor>
                             <Border>
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox19">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox19</rd:DefaultName>
-                          <Style>
-                            <BackgroundColor>#1F3864</BackgroundColor>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
+                            <BackgroundColor>#1f3864</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -158,9 +124,9 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!Benefice.Value)</Value>
                                   <Style>
-                                    <Color>White</Color>
                                     <FontFamily>Arial</FontFamily>
-                                    <Format>0.00'€';(0.00'€')</Format>
+                                    <Format>0'€';(0'€')</Format>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -169,49 +135,16 @@
                           </Paragraphs>
                           <rd:DefaultName>Benefice</rd:DefaultName>
                           <Style>
-                            <BackgroundColor>#2E75B6</BackgroundColor>
                             <Border>
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <BackgroundColor>#2e75b6</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                             <rd:FormatSymbolCulture>sr-Latn-ME</rd:FormatSymbolCulture>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox28">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox28</rd:DefaultName>
-                          <Style>
-                            <BackgroundColor>#2E75B6</BackgroundColor>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
                       </CellContents>
@@ -233,7 +166,7 @@
                                   <Value>=Sum(Fields!Benefice.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
-                                    <Format>0.00'€';(0.00'€')</Format>
+                                    <Format>0'€';(0'€')</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -242,49 +175,16 @@
                           </Paragraphs>
                           <rd:DefaultName>Benefice1</rd:DefaultName>
                           <Style>
-                            <BackgroundColor>#9DC3E6</BackgroundColor>
                             <Border>
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <BackgroundColor>#9dc3e6</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                             <rd:FormatSymbolCulture>en-MT</rd:FormatSymbolCulture>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox35">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox35</rd:DefaultName>
-                          <Style>
-                            <BackgroundColor>#9DC3E6</BackgroundColor>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
                       </CellContents>
@@ -306,7 +206,7 @@
                                   <Value>=Sum(Fields!Benefice.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
-                                    <Format>0.00'€';(0.00'€')</Format>
+                                    <Format>0'€';(0'€')</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -328,38 +228,6 @@
                         </Textbox>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox43">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox43</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
@@ -376,10 +244,10 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!Benefice.Value)</Value>
                                   <Style>
-                                    <Color>White</Color>
                                     <FontFamily>Arial</FontFamily>
                                     <FontWeight>Bold</FontWeight>
-                                    <Format>0.00'€';(0.00'€')</Format>
+                                    <Format>0'€';(0'€')</Format>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -388,49 +256,16 @@
                           </Paragraphs>
                           <rd:DefaultName>Textbox52</rd:DefaultName>
                           <Style>
-                            <BackgroundColor>#1F3864</BackgroundColor>
                             <Border>
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <BackgroundColor>#1f3864</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                             <rd:FormatSymbolCulture>se-FI</rd:FormatSymbolCulture>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox53">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox53</rd:DefaultName>
-                          <Style>
-                            <BackgroundColor>#1F3864</BackgroundColor>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
                       </CellContents>
@@ -441,7 +276,6 @@
             </TablixBody>
             <TablixColumnHierarchy>
               <TablixMembers>
-                <TablixMember />
                 <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
@@ -460,8 +294,8 @@
                               <TextRun>
                                 <Value>Temps</Value>
                                 <Style>
-                                  <Color>White</Color>
                                   <FontFamily>Arial</FontFamily>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -470,11 +304,11 @@
                         </Paragraphs>
                         <rd:DefaultName>Textbox23</rd:DefaultName>
                         <Style>
-                          <BackgroundColor>#1F3864</BackgroundColor>
                           <Border>
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
+                          <BackgroundColor>#1f3864</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -497,8 +331,8 @@
                                   <TextRun>
                                     <Value>CA</Value>
                                     <Style>
-                                      <Color>White</Color>
                                       <FontFamily>Arial</FontFamily>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -507,11 +341,11 @@
                             </Paragraphs>
                             <rd:DefaultName>Textbox44</rd:DefaultName>
                             <Style>
-                              <BackgroundColor>#1F3864</BackgroundColor>
                               <Border>
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
+                              <BackgroundColor>#1f3864</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -550,8 +384,8 @@
                               <TextRun>
                                 <Value>=Fields!Année.Value</Value>
                                 <Style>
-                                  <Color>White</Color>
                                   <FontFamily>Arial</FontFamily>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -560,11 +394,11 @@
                         </Paragraphs>
                         <rd:DefaultName>Année</rd:DefaultName>
                         <Style>
-                          <BackgroundColor>#2E75B6</BackgroundColor>
                           <Border>
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
+                          <BackgroundColor>#2e75b6</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -596,11 +430,11 @@
                             </Paragraphs>
                             <rd:DefaultName>Textbox30</rd:DefaultName>
                             <Style>
-                              <BackgroundColor>#2E75B6</BackgroundColor>
                               <Border>
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
+                              <BackgroundColor>#2e75b6</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -632,11 +466,11 @@
                                 </Paragraphs>
                                 <rd:DefaultName>Textbox37</rd:DefaultName>
                                 <Style>
-                                  <BackgroundColor>#2E75B6</BackgroundColor>
                                   <Border>
                                     <Color>LightGrey</Color>
                                     <Style>Solid</Style>
                                   </Border>
+                                  <BackgroundColor>#2e75b6</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -659,9 +493,9 @@
                                           <TextRun>
                                             <Value>=Sum(Fields!CA.Value)</Value>
                                             <Style>
-                                              <Color>White</Color>
                                               <FontFamily>Arial</FontFamily>
-                                              <Format>0.00'€';(0.00'€')</Format>
+                                              <Format>0'€';(0'€')</Format>
+                                              <Color>White</Color>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
@@ -670,11 +504,11 @@
                                     </Paragraphs>
                                     <rd:DefaultName>CA</rd:DefaultName>
                                     <Style>
-                                      <BackgroundColor>#2E75B6</BackgroundColor>
                                       <Border>
                                         <Color>LightGrey</Color>
                                         <Style>Solid</Style>
                                       </Border>
+                                      <BackgroundColor>#2e75b6</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -725,11 +559,11 @@
                             </Paragraphs>
                             <rd:DefaultName>Trimestre</rd:DefaultName>
                             <Style>
-                              <BackgroundColor>#9DC3E6</BackgroundColor>
                               <Border>
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
+                              <BackgroundColor>#9dc3e6</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -761,11 +595,11 @@
                                 </Paragraphs>
                                 <rd:DefaultName>Textbox38</rd:DefaultName>
                                 <Style>
-                                  <BackgroundColor>#9DC3E6</BackgroundColor>
                                   <Border>
                                     <Color>LightGrey</Color>
                                     <Style>Solid</Style>
                                   </Border>
+                                  <BackgroundColor>#9dc3e6</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -789,7 +623,7 @@
                                             <Value>=Sum(Fields!CA.Value)</Value>
                                             <Style>
                                               <FontFamily>Arial</FontFamily>
-                                              <Format>0.00'€';(0.00'€')</Format>
+                                              <Format>0'€';(0'€')</Format>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
@@ -798,11 +632,11 @@
                                     </Paragraphs>
                                     <rd:DefaultName>CA1</rd:DefaultName>
                                     <Style>
-                                      <BackgroundColor>#9DC3E6</BackgroundColor>
                                       <Border>
                                         <Color>LightGrey</Color>
                                         <Style>Solid</Style>
                                       </Border>
+                                      <BackgroundColor>#9dc3e6</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -881,7 +715,7 @@
                                             <Value>=Sum(Fields!CA.Value)</Value>
                                             <Style>
                                               <FontFamily>Arial</FontFamily>
-                                              <Format>0.00'€';(0.00'€')</Format>
+                                              <Format>0'€';(0'€')</Format>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
@@ -929,9 +763,9 @@
                               <TextRun>
                                 <Value>Total general</Value>
                                 <Style>
-                                  <Color>White</Color>
                                   <FontFamily>Arial</FontFamily>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -940,11 +774,11 @@
                         </Paragraphs>
                         <rd:DefaultName>Textbox48</rd:DefaultName>
                         <Style>
-                          <BackgroundColor>#1F3864</BackgroundColor>
                           <Border>
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
+                          <BackgroundColor>#1f3864</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -976,11 +810,11 @@
                             </Paragraphs>
                             <rd:DefaultName>Textbox49</rd:DefaultName>
                             <Style>
-                              <BackgroundColor>#1F3864</BackgroundColor>
                               <Border>
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
+                              <BackgroundColor>#1f3864</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -1012,11 +846,11 @@
                                 </Paragraphs>
                                 <rd:DefaultName>Textbox50</rd:DefaultName>
                                 <Style>
-                                  <BackgroundColor>#1F3864</BackgroundColor>
                                   <Border>
                                     <Color>LightGrey</Color>
                                     <Style>Solid</Style>
                                   </Border>
+                                  <BackgroundColor>#1f3864</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -1039,9 +873,10 @@
                                           <TextRun>
                                             <Value>=Sum(Fields!CA.Value)</Value>
                                             <Style>
-                                              <Color>White</Color>
                                               <FontFamily>Arial</FontFamily>
                                               <FontWeight>Bold</FontWeight>
+                                              <Format>0'€';(0'€')</Format>
+                                              <Color>White</Color>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
@@ -1050,15 +885,16 @@
                                     </Paragraphs>
                                     <rd:DefaultName>CA3</rd:DefaultName>
                                     <Style>
-                                      <BackgroundColor>#1F3864</BackgroundColor>
                                       <Border>
                                         <Color>LightGrey</Color>
                                         <Style>Solid</Style>
                                       </Border>
+                                      <BackgroundColor>#1f3864</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
                                       <PaddingBottom>2pt</PaddingBottom>
+                                      <rd:FormatSymbolCulture>fr-MC</rd:FormatSymbolCulture>
                                     </Style>
                                   </Textbox>
                                 </CellContents>
@@ -1077,7 +913,7 @@
             <Top>0.62301cm</Top>
             <Left>1.50495cm</Left>
             <Height>3.34396cm</Height>
-            <Width>16.57574cm</Width>
+            <Width>13.7112cm</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1104,6 +940,11 @@
   <ReportParameters>
     <ReportParameter Name="Annee">
       <DataType>Integer</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>2009</Value>
+        </Values>
+      </DefaultValue>
       <Prompt>Annee</Prompt>
     </ReportParameter>
   </ReportParameters>
