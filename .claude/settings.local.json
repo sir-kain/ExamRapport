@@ -20,7 +20,9 @@
       "Bash(sqlcmd -S 'WALY\\\\SQLSERVER2025' -d CRM2 -E -C -Q ' *)",
       "Bash(sqlcmd -S \"WALY\\\\SQLSERVER2025\" -d CRM2 -E -C -i \"c:\\\\Users\\\\ahman\\\\source\\\\repos\\\\ExamRapport\\\\procedure_rapport2.sql\")",
       "Bash(sqlcmd -S \"WALY\\\\SQLSERVER2025\" -d CRM2 -E -C -Q \"SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='Calendrier'\")",
-      "Bash(sqlcmd -S \"WALY\\\\SQLSERVER2025\" -d CRM2 -E -C -Q \"SELECT TOP 1 [Année] FROM dbo.Calendrier\")"
+      "Bash(sqlcmd -S \"WALY\\\\SQLSERVER2025\" -d CRM2 -E -C -Q \"SELECT TOP 1 [Année] FROM dbo.Calendrier\")",
+      "Bash(ls \"c:\\\\Users\\\\ahman\\\\source\\\\repos\\\\ExamRapport\\\\\" | Select-Object Name)",
+      "Read(//c/Users/ahman/source/repos/**)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ahman\\source\\repos\\ExamRapport"

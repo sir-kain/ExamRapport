@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
   <am:AuthoringMetadata>
     <am:CreatedBy>
@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>18.5.11723.231</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-05-11T16:55:53.8848938Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-05-11T22:01:09.3668093Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -90,6 +90,7 @@
                                   <Value>% Benefice</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -102,6 +103,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <BackgroundColor>#1f3864</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -122,6 +124,7 @@
                                   <Value>Reel VS Budget</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -134,6 +137,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <BackgroundColor>#1f3864</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -172,12 +176,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>=Switch(
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.53, "Green",
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.50, "Gold",
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.47, "LightCoral",
-  True, "Red"
-)</BackgroundColor>
+                            <BackgroundColor>#2E75B6</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -320,7 +319,7 @@
                                   <Color>LightGrey</Color>
                                   <Style>None</Style>
                                 </Border>
-                                <BackgroundColor>White</BackgroundColor>
+                                <BackgroundColor>#2E75B6</BackgroundColor>
                               </Style>
                             </GaugePanel>
                             <Textbox Name="Textbox48">
@@ -358,6 +357,7 @@
                           </ReportItems>
                           <KeepTogether>true</KeepTogether>
                           <Style>
+                            <BackgroundColor>#2E75B6</BackgroundColor>
                             <Border>
                               <Style>None</Style>
                             </Border>
@@ -395,12 +395,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>=Switch(
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.53, "Green",
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.50, "Gold",
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.47, "LightCoral",
-  True, "Red"
-)</BackgroundColor>
+                            <BackgroundColor>#9DC3E6</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -543,7 +538,7 @@
                                   <Color>LightGrey</Color>
                                   <Style>None</Style>
                                 </Border>
-                                <BackgroundColor>White</BackgroundColor>
+                                <BackgroundColor>#9DC3E6</BackgroundColor>
                               </Style>
                             </GaugePanel>
                             <Textbox Name="Textbox49">
@@ -579,6 +574,7 @@
                           </ReportItems>
                           <KeepTogether>true</KeepTogether>
                           <Style>
+                            <BackgroundColor>#9DC3E6</BackgroundColor>
                             <Border>
                               <Style>None</Style>
                             </Border>
@@ -616,12 +612,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>=Switch(
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.53, "Green",
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.50, "Gold",
-  SUM(Fields!Benefice.Value)/(SUM(Fields!CA.Value)-SUM(Fields!Benefice.Value)) &gt;= 0.47, "LightCoral",
-  True, "Red"
-)</BackgroundColor>
+                            <BackgroundColor>White</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -902,6 +893,7 @@
                                 <Value>Temps</Value>
                                 <Style>
                                   <FontFamily>Arial</FontFamily>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -914,6 +906,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
+                          <BackgroundColor>#1f3864</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -937,6 +930,7 @@
                                     <Value>CA</Value>
                                     <Style>
                                       <FontFamily>Arial</FontFamily>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -949,6 +943,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
+                              <BackgroundColor>#1f3864</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -972,6 +967,7 @@
                                         <Value>Benefice</Value>
                                         <Style>
                                           <FontFamily>Arial</FontFamily>
+                                          <Color>White</Color>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
@@ -984,6 +980,7 @@
                                     <Color>LightGrey</Color>
                                     <Style>Solid</Style>
                                   </Border>
+                                  <BackgroundColor>#1f3864</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -1025,6 +1022,7 @@
                                 <Value>=Fields!Annee.Value</Value>
                                 <Style>
                                   <FontFamily>Arial</FontFamily>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1037,6 +1035,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
+                          <BackgroundColor>#2e75b6</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -1072,6 +1071,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
+                              <BackgroundColor>#2e75b6</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -1107,6 +1107,7 @@
                                     <Color>LightGrey</Color>
                                     <Style>Solid</Style>
                                   </Border>
+                                  <BackgroundColor>#2e75b6</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -1130,6 +1131,7 @@
                                             <Value>=Sum(Fields!CA.Value)</Value>
                                             <Style>
                                               <FontFamily>Arial</FontFamily>
+                                              <Color>White</Color>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
@@ -1142,6 +1144,7 @@
                                         <Color>LightGrey</Color>
                                         <Style>Solid</Style>
                                       </Border>
+                                      <BackgroundColor>#2e75b6</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -1165,6 +1168,7 @@
                                                 <Value>=Sum(Fields!Benefice.Value)</Value>
                                                 <Style>
                                                   <FontFamily>Arial</FontFamily>
+                                                  <Color>White</Color>
                                                 </Style>
                                               </TextRun>
                                             </TextRuns>
@@ -1177,6 +1181,7 @@
                                             <Color>LightGrey</Color>
                                             <Style>Solid</Style>
                                           </Border>
+                                          <BackgroundColor>#2e75b6</BackgroundColor>
                                           <PaddingLeft>2pt</PaddingLeft>
                                           <PaddingRight>2pt</PaddingRight>
                                           <PaddingTop>2pt</PaddingTop>
@@ -1232,6 +1237,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
+                              <BackgroundColor>#9dc3e6</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -1267,6 +1273,7 @@
                                     <Color>LightGrey</Color>
                                     <Style>Solid</Style>
                                   </Border>
+                                  <BackgroundColor>#9dc3e6</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -1302,6 +1309,7 @@
                                         <Color>LightGrey</Color>
                                         <Style>Solid</Style>
                                       </Border>
+                                      <BackgroundColor>#9dc3e6</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -1337,6 +1345,7 @@
                                             <Color>LightGrey</Color>
                                             <Style>Solid</Style>
                                           </Border>
+                                          <BackgroundColor>#9dc3e6</BackgroundColor>
                                           <PaddingLeft>2pt</PaddingLeft>
                                           <PaddingRight>2pt</PaddingRight>
                                           <PaddingTop>2pt</PaddingTop>

@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="Rapport1.rdl" />
-    <Report Include="Report1.rdl" />
+    <Report Include="Rapport2.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
